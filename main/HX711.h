@@ -9,7 +9,7 @@
 #include "freertos/task.h"
 #include "freertos/semphr.h"
 #include "freertos/event_groups.h"
-#include "driver/gpio.h"
+#include <hal/gpio_types.h>
 
 
 typedef enum HX711_GAIN

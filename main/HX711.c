@@ -1,6 +1,8 @@
 #include "HX711.h"
 #include "esp_log.h"
 #include <rom/ets_sys.h>
+#include <driver/i2c.h>
+#include <rom/gpio.h>
 
 #define HIGH 1
 #define LOW 0
